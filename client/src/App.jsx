@@ -8,10 +8,10 @@ const App = () => {
     
     <BrowserRouter>
       <header className='
-        w-full flex justify-between items-center bg-white sm:px-8 px-4 py-4 border-b border-b-borderlight
+        w-full flex justify-between items-center bg-bgdark sm:px-8 px-4 py-4 border-b border-b-bglight
        '>
         <Link to="/">
-          <img src={logo} alt="logo" className='w-72 object-contain active:scale-95'/>
+          <img src={logo} alt="logo" className='w-72  object-contain active:scale-95'/>
         </Link>
 
         <Link to='/create-post' className='font-inter font-medium text-white rounded-md bg-highlight px-4 py-2 active:scale-95'>

@@ -83,10 +83,10 @@ const CreatePost = () => {
   return (
     <section className="max-w-7xl mx-auto text-[32px]">
       <div>
-        <h1 className="font-extrabold text-darktext">Create Your Own Image</h1>
-        <p className="mt-2 text-lighttext text-[16px] max-w-[500px]">
-          Create imagnitive and visually stunning images through DALL-E AI and
-          share them with the community
+        <h1 className="font-extrabold text-lighttext">Create Your Image With Me</h1>
+        <p className="mt-2 text-extralighttext text-[16px] max-w-[500px]">
+          Create amazing images with the help of [ AI ] and
+          share them with the community. Anything is possible!
         </p>
       </div>
 
@@ -96,7 +96,7 @@ const CreatePost = () => {
             labelName="Your Name"
             type="text"
             name="name"
-            placeholder="John Doe"
+            placeholder="Creator"
             value={form.name}
             handleChange={handleChange}
           />
@@ -110,7 +110,7 @@ const CreatePost = () => {
             isSupriseMe
             handleSupriseMe={handleSupriseMe}
           />
-          <div className="relative bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 w-64 p-3 h-64 flex justify-center items-center ">
+          <div className="relative bg-gray-50 border border-gray-300 text-gray-200 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 w-64 p-3 h-64 flex justify-center items-center ">
             {form.photo ? (
               <img
                 src={form.photo}

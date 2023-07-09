@@ -12,7 +12,7 @@ export default {
         borderlight: "#e6ebf4",
         darktext: "#222328",
         lighttext: "#666e75",
-        titletext: "#6449ff",
+        titletext: "#6419ff",
       },
       screens: {
         xs: '480px',
