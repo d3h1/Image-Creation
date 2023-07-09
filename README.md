@@ -5,7 +5,7 @@ https://imagecreation.online/
 A MERN stack imaginative AI image creation service that allows users to create their images and showcase them to the public.
 
 ## Technologies Used
-         ::  NodeJS, TailwindCSS, ExpressJS, MongoDB
+         ::  NodeJS, TailwindCSS, Express, MongoDB
          ::  API Development, AI Creation
 
 Thee technologies are used to create an amazing front end service that allows users to see their creations. 
